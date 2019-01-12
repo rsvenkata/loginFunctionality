@@ -17,11 +17,12 @@ let userSchema = new mongu.Schema({
         type: String,
         required: true
     },
-    date: {
-        type: Date,
-        required: Date.now
+    password2: {
+        type: String,
+        required: true
     }
 })
+
 const User = mongu.model('User', userSchema)
 
 module.exports = User

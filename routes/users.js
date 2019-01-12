@@ -38,8 +38,8 @@ router.post('/register', (req, res) => {
             email,
             password,
             password2
-
         })
+
     } else {
         // res.send('pass')
         User.findOne({
@@ -60,20 +60,17 @@ router.post('/register', (req, res) => {
                 const newUser = new User({
                     name,
                     email,
-                    password
+                    password,
+                    password2
                 })
-               
+
                 newUser.save().then((user) => {
-                console.log(user)
-                
+                    console.log(user)
                     res.send(user)
                 })
-                
-                
             }
         })
     }
-
 })
 
 module.exports = router;

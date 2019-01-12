@@ -4,7 +4,6 @@ const usersRoutes = require('./routes/users')
 const expressLayouts = require('express-ejs-layouts')
 const mongoose = require('mongoose')
 
-
 const app = express()
 app.use(expressLayouts)
 app.set('view engine', 'ejs')
