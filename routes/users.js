@@ -42,7 +42,6 @@ router.post('/register', (req, res) => {
         })
 
     } else {
-        // res.send('pass')
         User.findOne({
             email
         }).then((user) => {
@@ -80,11 +79,6 @@ router.post('/register', (req, res) => {
 
                     })
                 })
-
-                // newUser.save().then((user) => {
-                //     console.log(user)
-                //     res.send(user)
-                // })
             }
         })
     }
