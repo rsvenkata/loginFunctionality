@@ -1,6 +1,6 @@
 const mongu = require('mongoose')
 
-mongu.connect('//mongodb://yourdbconnection-here', { useNewUrlParser: true })   //local/mlab mongoDB server
+mongu.connect('mongodb://raghu:raghu123@ds211504.mlab.com:11504/mlabdb', { useNewUrlParser: true })   //local/mlab mongoDB server
 
 let userSchema = new mongu.Schema({
     name: {
