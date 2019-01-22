@@ -5,7 +5,6 @@ const router = express.Router()
 const { ensureAuthenticated } = require('../config/authenticated')
 
 router.get('/', (req, res) => {
-    console.log('I am called....')
     res.render('welcome')
 })
 
