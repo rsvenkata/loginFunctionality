@@ -1,6 +1,9 @@
 const mongu = require('mongoose')
 
-mongu.connect('mongodb://raghu:raghu123@ds211504.mlab.com:11504/mlabdb', { useNewUrlParser: true }, {useMongoClient: true})
+mongu.connect('mongodb://raghu:raghu123@ds211504.mlab.com:11504/mlabdb', { useNewUrlParser: true }).then(() => {
+}).catch((e) => {
+console.log('Mongo error');
+})
 
 let userSchema = new mongu.Schema({
     name: {
