@@ -1,0 +1,68 @@
+<?xml version='1.0'?>
+<ns2:test-suite xmlns:ns2='urn:model.allure.qatools.yandex.ru' start='1564247142714' stop='1564247142972'>
+    <name>Basic website: Get the title of webpage</name>
+    <title>Basic website: Get the title of webpage</title>
+    <test-cases>
+        <test-case start='1564247142715' status='passed' stop='1564247142953'>
+            <name>Given I go to the website</name>
+            <title>Given I go to the website</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-0'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='chrome'/>
+            </parameters>
+            <steps>
+                <step start='1564247142719' status='passed' stop='1564247142951'>
+                    <name>POST /session/:sessionId/url</name>
+                    <title>POST /session/:sessionId/url</title>
+                    <attachments>
+                        <attachment title='Request' source='c7267e67-9d43-4238-bd19-c759ad501755-attachment.json' type='application/json' size='32'/>
+                    </attachments>
+                    <steps/>
+                </step>
+            </steps>
+            <attachments/>
+        </test-case>
+        <test-case start='1564247142953' status='passed' stop='1564247142970'>
+            <name>When I land on the home page</name>
+            <title>When I land on the home page</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-0'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='chrome'/>
+            </parameters>
+            <steps>
+                <step start='1564247142954' status='passed' stop='1564247142970'>
+                    <name>POST /session/:sessionId/elements</name>
+                    <title>POST /session/:sessionId/elements</title>
+                    <attachments>
+                        <attachment title='Request' source='74199d94-e7b4-48e6-8c2b-290e6b16b2a1-attachment.json' type='application/json' size='107'/>
+                        <attachment title='Response' source='fe10bf1a-227b-4771-89ed-60ab939507cb-attachment.json' type='application/json' size='2'/>
+                    </attachments>
+                    <steps/>
+                </step>
+            </steps>
+            <attachments/>
+        </test-case>
+        <test-case start='1564247142970' status='passed' stop='1564247142971'>
+            <name>Then I expect the title of the page "Learn more about what we do - About the BBC"</name>
+            <title>Then I expect the title of the page "Learn more about what we do - About the BBC"</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-0'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='chrome'/>
+            </parameters>
+            <steps/>
+            <attachments/>
+        </test-case>
+    </test-cases>
+</ns2:test-suite>

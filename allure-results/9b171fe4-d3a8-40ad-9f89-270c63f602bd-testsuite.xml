@@ -1,0 +1,79 @@
+<?xml version='1.0'?>
+<ns2:test-suite xmlns:ns2='urn:model.allure.qatools.yandex.ru' start='1564253611247' stop='1564253612315'>
+    <name>Basic website: Get the title of webpage</name>
+    <title>Basic website: Get the title of webpage</title>
+    <test-cases>
+        <test-case start='1564253611248' status='passed' stop='1564253612275'>
+            <name>Given I go to the website</name>
+            <title>Given I go to the website</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-0'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='chrome'/>
+            </parameters>
+            <steps>
+                <step start='1564253611252' status='passed' stop='1564253612273'>
+                    <name>POST /session/:sessionId/url</name>
+                    <title>POST /session/:sessionId/url</title>
+                    <attachments>
+                        <attachment title='Request' source='1ecc3977-954f-4fa1-a107-9355d935776e-attachment.json' type='application/json' size='37'/>
+                    </attachments>
+                    <steps/>
+                </step>
+            </steps>
+            <attachments/>
+        </test-case>
+        <test-case start='1564253612275' status='passed' stop='1564253612275'>
+            <name>When I land on the home page</name>
+            <title>When I land on the home page</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-0'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='chrome'/>
+            </parameters>
+            <steps/>
+            <attachments/>
+        </test-case>
+        <test-case start='1564253612275' status='failed' stop='1564253612314'>
+            <name>Then I expect the title of the page "Node.js &amp; Passport App"</name>
+            <title>Then I expect the title of the page "Node.js &amp; Passport App"</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-0'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='chrome'/>
+            </parameters>
+            <steps>
+                <step start='1564253612277' status='passed' stop='1564253612293'>
+                    <name>POST /session/:sessionId/element</name>
+                    <title>POST /session/:sessionId/element</title>
+                    <attachments>
+                        <attachment title='Request' source='b6e074ee-aa96-4b81-bc12-bc975c2fa5ab-attachment.json' type='application/json' size='56'/>
+                        <attachment title='Response' source='cb9d8ce4-cb71-463b-a459-183af4297914-attachment.json' type='application/json' size='40'/>
+                    </attachments>
+                    <steps/>
+                </step>
+                <step start='1564253612298' status='passed' stop='1564253612311'>
+                    <name>GET /session/:sessionId/element/0.24011872511619603-1/text</name>
+                    <title>GET /session/:sessionId/element/0.24011872511619603-1/text</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+            </steps>
+            <attachments/>
+            <failure>
+                <message>expected '' to deeply equal 'Node.js &amp; Passport App'</message>
+                <stack-trace>AssertionError: expected '' to deeply equal 'Node.js &amp; Passport App'
+                    at World.eql (/Users/rags/Workspace/NodeJS/loginFunctionality/test/steps/basic.js:26:35)</stack-trace>
+            </failure>
+        </test-case>
+    </test-cases>
+</ns2:test-suite>

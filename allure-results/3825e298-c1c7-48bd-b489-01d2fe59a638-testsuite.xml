@@ -1,0 +1,58 @@
+<?xml version='1.0'?>
+<ns2:test-suite xmlns:ns2='urn:model.allure.qatools.yandex.ru' start='1564250789662' stop='1564250790015'>
+    <name>Basic website: Get the title of webpage</name>
+    <title>Basic website: Get the title of webpage</title>
+    <test-cases>
+        <test-case start='1564250789663' status='passed' stop='1564250790012'>
+            <name>Given I go to the website</name>
+            <title>Given I go to the website</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-0'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='chrome'/>
+            </parameters>
+            <steps>
+                <step start='1564250789667' status='passed' stop='1564250790011'>
+                    <name>POST /session/:sessionId/url</name>
+                    <title>POST /session/:sessionId/url</title>
+                    <attachments>
+                        <attachment title='Request' source='ed64b712-bea9-44d1-b917-9a756254784c-attachment.json' type='application/json' size='32'/>
+                    </attachments>
+                    <steps/>
+                </step>
+            </steps>
+            <attachments/>
+        </test-case>
+        <test-case start='1564250790012' status='passed' stop='1564250790013'>
+            <name>When I land on the home page</name>
+            <title>When I land on the home page</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-0'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='chrome'/>
+            </parameters>
+            <steps/>
+            <attachments/>
+        </test-case>
+        <test-case start='1564250790013' status='passed' stop='1564250790014'>
+            <name>Then I expect the title of the page "Learn more about what we do - About the BBC"</name>
+            <title>Then I expect the title of the page "Learn more about what we do - About the BBC"</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-0'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='chrome'/>
+            </parameters>
+            <steps/>
+            <attachments/>
+        </test-case>
+    </test-cases>
+</ns2:test-suite>

@@ -1,0 +1,74 @@
+<?xml version='1.0'?>
+<ns2:test-suite xmlns:ns2='urn:model.allure.qatools.yandex.ru' start='1564252683177' stop='1564252683351'>
+    <name>Basic website: Testing the login functionality</name>
+    <title>Basic website: Testing the login functionality</title>
+    <test-cases>
+        <test-case start='1564252683177' status='broken' stop='1564252683350'>
+            <name>Given I go to the website</name>
+            <title>Given I go to the website</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-0'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='firefox'/>
+            </parameters>
+            <steps>
+                <step start='1564252683177' status='broken' stop='1564252683350'>
+                    <name>POST /session/:sessionId/url</name>
+                    <title>POST /session/:sessionId/url</title>
+                    <attachments>
+                        <attachment title='Request' source='c6cf0c86-f949-49f0-8902-559a76520412-attachment.json' type='application/json' size='32'/>
+                    </attachments>
+                    <steps/>
+                </step>
+            </steps>
+            <attachments/>
+            <failure>
+                <message>Reached error page: about:neterror?e=connectionFailure&amp;u=http%3A//localhost/&amp;c=UTF-8&amp;f=regular&amp;d=Firefox%20can%E2%80%99t%20establish%20a%20connection%20to%20the%20server%20at%20localhost.</message>
+                <stack-trace>unknown error: Reached error page: about:neterror?e=connectionFailure&amp;u=http%3A//localhost/&amp;c=UTF-8&amp;f=regular&amp;d=Firefox%20can%E2%80%99t%20establish%20a%20connection%20to%20the%20server%20at%20localhost.
+                    at getErrorFromResponseBody (/Users/rags/Workspace/NodeJS/loginFunctionality/node_modules/webdriver/build/utils.js:371:10)
+                    at Request._callback (/Users/rags/Workspace/NodeJS/loginFunctionality/node_modules/webdriver/build/request.js:120:64)
+                    at Request.self.callback (/Users/rags/Workspace/NodeJS/loginFunctionality/node_modules/request/request.js:185:22)
+                    at Request.&lt;anonymous> (/Users/rags/Workspace/NodeJS/loginFunctionality/node_modules/request/request.js:1161:10)
+                    at IncomingMessage.&lt;anonymous> (/Users/rags/Workspace/NodeJS/loginFunctionality/node_modules/request/request.js:1083:12)
+                    at endReadableNT (_stream_readable.js:1154:12)
+                    at processTicksAndRejections (internal/process/task_queues.js:77:11)
+                Error:
+                Error: 
+                    at LoginPage.url (/Users/rags/Workspace/NodeJS/loginFunctionality/test/pages/basePage.js:3:13)
+                    at LoginPage.home (/Users/rags/Workspace/NodeJS/loginFunctionality/test/pages/loginPage.js:21:11)
+                    at World.home (/Users/rags/Workspace/NodeJS/loginFunctionality/test/steps/basic.js:17:13)</stack-trace>
+            </failure>
+        </test-case>
+        <test-case start='1564252683350' status='pending' stop='1564252683351'>
+            <name>When I click on the login button</name>
+            <title>When I click on the login button</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-0'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='firefox'/>
+            </parameters>
+            <steps/>
+            <attachments/>
+        </test-case>
+        <test-case start='1564252683351' status='pending' stop='1564252683351'>
+            <name>Then login page should be displayed</name>
+            <title>Then login page should be displayed</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-0'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='firefox'/>
+            </parameters>
+            <steps/>
+            <attachments/>
+        </test-case>
+    </test-cases>
+</ns2:test-suite>

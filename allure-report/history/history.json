@@ -1,0 +1,22 @@
+{
+  "f272ea613d00cb82c03e7f941d2a1dc2" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "7560f76a758ad0c2",
+      "reportUrl" : "http://localhost:8080/job/LoginTest/34/allure/#testresult/7560f76a758ad0c2",
+      "status" : "passed",
+      "time" : {
+        "start" : 1564243774139,
+        "stop" : 1564243775074,
+        "duration" : 935
+      }
+    } ]
+  }
+}

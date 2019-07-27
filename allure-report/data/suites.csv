@@ -1,0 +1,2 @@
+"Status","Start Time","Stop Time","Duration in ms","Parent Suite","Suite","Sub Suite","Test Class","Test Method","Name","Description"
+"passed","Sat Jul 27 17:09:34 BST 2019","Sat Jul 27 17:09:35 BST 2019","935","","webdriver.io page","","webdriver.io page","should have the right title","should have the right title",""
