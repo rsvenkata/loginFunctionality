@@ -63,8 +63,8 @@ exports.config = {
   services: ["selenium-standalone"],
   reporters: ["spec", "allure"],
 
-  mochaOpts: {
-    ui: "bdd",
-    timeout: 60000
-  }
+  // mochaOpts: {
+  //   ui: "bdd",
+  //   timeout: 60000
+  // }
 }
