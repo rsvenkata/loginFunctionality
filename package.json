@@ -4,9 +4,7 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "start": "node app",
-    "test": "./node_modules/.bin/wdio wdio.conf.js",
-    "cypress": "./node_modules/.bin/cypress open"
+    "start": "node app"
   },
   "keywords": [],
   "author": "",
