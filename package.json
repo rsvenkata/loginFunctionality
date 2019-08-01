@@ -5,6 +5,7 @@
   "main": "index.js",
   "scripts": {
     "start": "node app",
+    "hello": "",
     "test": "./node_modules/.bin/wdio wdio.conf.js",
     "cypress": "./node_modules/.bin/cypress open"
   },
@@ -19,7 +20,7 @@
     "express-ejs-layouts": "^2.5.0",
     "express-session": "^1.15.6",
     "mongoose": "^5.4.3",
-    "passport": "^0.4.0",
+    "passport": "^0.4.0", 
     "passport-local": "^1.0.0",
     "@babel/cli": "^7.5.0",
     "@babel/core": "^7.5.0",
