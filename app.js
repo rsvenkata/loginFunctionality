@@ -36,11 +36,7 @@ app.use((req, res, next) => {
   next();
 });
 
-const PORT = process.env.PORT || 5001;
-
 app.use("/", indexRoutes);
 app.use("/users", usersRoutes);
 
-app.listen(PORT, () => {
-  console.log(`server started at ${PORT}`);
-});
+module.exports = app

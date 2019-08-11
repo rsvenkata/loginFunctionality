@@ -4,10 +4,14 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "start": "node app",
-    "hello": "",
+    "start": "node index",
+    "hello": "hello",
     "test": "./node_modules/.bin/wdio wdio.conf.js",
-    "cypress": "./node_modules/.bin/cypress open"
+    "cypress": "./node_modules/.bin/cypress open",
+    "apiTest": "jest --watchAll --verbose --detectOpenHandles ./server/api"
+  },
+  "jest": {
+    "testEnvironment": "node"
   },
   "keywords": [],
   "author": "",
@@ -20,7 +24,7 @@
     "express-ejs-layouts": "^2.5.0",
     "express-session": "^1.15.6",
     "mongoose": "^5.4.3",
-    "passport": "^0.4.0", 
+    "passport": "^0.4.0",
     "passport-local": "^1.0.0",
     "@babel/cli": "^7.5.0",
     "@babel/core": "^7.5.0",
@@ -30,6 +34,7 @@
   },
   "devDependencies": {
     "@types/cucumber": "^4.0.5",
+    "@types/webdriverio": "^5.0.0",
     "@wdio/allure-reporter": "^5.11.7",
     "@wdio/cli": "^5.11.10",
     "@wdio/cucumber-framework": "^5.11.0",
@@ -40,7 +45,8 @@
     "@wdio/sync": "^5.11.10",
     "chai": "^4.2.0",
     "cucumber": "^5.1.0",
-    "cypress": "^3.1.4",
+    "cypress": "^3.4.1",
+    "jest": "^24.8.0",
     "should": "^13.2.3",
     "supertest": "^4.0.2"
   }
