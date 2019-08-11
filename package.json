@@ -33,7 +33,6 @@
   },
   "devDependencies": {
     "@types/cucumber": "^4.0.5",
-    "@types/webdriverio": "^5.0.0",
     "@wdio/allure-reporter": "^5.11.7",
     "@wdio/cli": "^5.11.10",
     "@wdio/cucumber-framework": "^5.11.0",
