@@ -5,10 +5,9 @@
   "main": "index.js",
   "scripts": {
     "start": "node index",
-    "hello": "hello",
     "test": "./node_modules/.bin/wdio wdio.conf.js",
     "cypress": "./node_modules/.bin/cypress open",
-    "apiTest": "jest --watchAll --verbose --detectOpenHandles ./server/api"
+    "apiTest": "jest --watchAll --verbose --detectOpenHandles ./test/APITests/api.spec.test"
   },
   "jest": {
     "testEnvironment": "node"
