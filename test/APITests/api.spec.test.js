@@ -18,7 +18,7 @@ describe("SAMPLE unit test",function(){
     })
   })
 
-  it("Registering an user", function (done) {
+  xit("Registering an user", function (done) {
     // calling home page
      supertest(app).post('/register').send({
       name: 'Raghunath',
@@ -29,7 +29,7 @@ describe("SAMPLE unit test",function(){
     done()
   })
 
-  it("Home page",function(done){
+  xit("Home page",function(done){
     // calling home page
     server
     .get("/")
