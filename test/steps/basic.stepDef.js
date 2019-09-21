@@ -13,8 +13,10 @@ const expect = require("chai").expect;
 
 let r = [];
 
-Given(/^I go to the website$/, () => {
-  loginPage.home();
+Given(/^I go to the website$/, function() {
+  loginPage.goHome();
+  // loginPage.title()
+  // loginPage.badhnekayi()
 });
 
 When(/^I land on the home page$/, () => {

@@ -16,17 +16,22 @@ class LoginPage extends BasePage {
     );
   }
 
-  home() {
+  goHome() {
     super.home();
   }
 
-  title(){
-    return $('head > title').getText() //browser.getTitle()
+  get getTitle() {
+    return $("head > title");
+  }
+
+  title() {
+    return this.getTitle.waitForDisplayed().getText(); //browser.getTitle()
   }
 
   getCountries() {
     return this.countries;
   }
+
 }
 
 module.exports = new LoginPage();

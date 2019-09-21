@@ -1,7 +1,7 @@
 var baseUrl;
 
 if(baseUrl === undefined)
-   baseUrl = 'http://localhost:5001'
+   baseUrl = 'https://www.bbc.com'
 
 exports.config = {
   runner: "local",

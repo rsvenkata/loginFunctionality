@@ -4,7 +4,7 @@ Feature: Basic website
   Scenario: Get the title of webpage
     Given I go to the website
     When I land on the home page
-    Then I expect the title of the page "Node.js & Passport App"
+    Then I expect the title of the page "BBC - Home"
 
     Scenario: Testing the login functionality
      Given I go to the website
